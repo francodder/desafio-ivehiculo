@@ -20,7 +20,7 @@ class Auto {
     apagarRadio() { }
     hacerSonarBocina() { }
 }
-class Monopatin {
+class MonopatinElectrico {
     arrancarVehiculo() { }
     avanzar() { }
     frenar() { }

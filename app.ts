@@ -41,7 +41,7 @@ class Auto implements IVehiculo {
     hacerSonarBocina(): void {}
 }
 
-class Monopatin implements VehiculoMotorizado {
+class MonopatinElectrico implements VehiculoMotorizado {
 
     arrancarVehiculo(): void {}
     avanzar(): void {}
