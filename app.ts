@@ -11,7 +11,7 @@ interface VehiculoMotorizado extends Vehiculo {
 }
 
 interface IVehiculo extends VehiculoMotorizado {
-    endenderRadio(): void,
+    encenderRadio(): void,
     apagarRadio(): void
 }
 
@@ -24,7 +24,7 @@ class Camion implements IVehiculo {
     frenar(): void {}
     encenderLuces(): void {}
     apagarLuces(): void {}
-    endenderRadio(): void {}
+    encenderRadio(): void {}
     apagarRadio(): void {}
     hacerSonarBocina(): void {}
 }
@@ -36,7 +36,7 @@ class Auto implements IVehiculo {
     frenar(): void {}
     encenderLuces(): void {}
     apagarLuces(): void {}
-    endenderRadio(): void {}
+    encenderRadio(): void {}
     apagarRadio(): void {}
     hacerSonarBocina(): void {}
 }
