@@ -1,5 +1,4 @@
-# IVehiculo
-Este proyecto es el resultado de un desafío técnico.
+# Ejercicio 2
 
 ## Consigna
 Tengo una interfaz IVehiculo con los siguientes métodos:
